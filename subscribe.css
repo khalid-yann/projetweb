@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/*
+.width30 {
+  width: 30%;
+}
+.width70 {
+  width: 70%;
+}
+.floatL{
+  float: left;
+}
+.width50{
+  width: 50%;
+}
+.floatR{
+  float: right;
+}
+.btn{
+  width: 100%;
+  border-radius: 0px;
+}
+.width100{
+  width: 100%;
+}
+.row{
+  margin-left: -20px;
+  margin-right: -20px;
+
+}
+.boxStyle{
+  padding: 20px;
+  border-radius: 25px;
+  border-top: 6px solid #dc3545;
+  border-bottom: 6px solid #28a745;
+}*/
+
+
+body{
+  background: url("./img/airplane.jpg");
+  color: white;
+}
+body img{
+  width: 100%;
+  max-width: 100%;
+}
+body h2{
+  text-align: center;
+  color: #0b2e13;
+  text-shadow: 0 0 20px #000000;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+}
+  /*margin-top: 50px;
+}
+h2{
+  text-align: center;
+  color: #000540;
+}*/
+form{
+  border: none;
+  background-color: #1d2124;
+
+}
+form label{
+  border-radius: 20px;
+}
+.well{
+  background: rgba(0, 0, 0, 0.5) ;
+  border-radius: 10px/10px;
+  box-shadow: 0 0 50px 0 red;
+
+}
+
+#check{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#sel{
+  margin-left: 5%;
+}
+
+#bu{
+  float: right;
+}
+#but{
+  float: left;
+}
+#phone{
+  margin-bottom: 2%;
+}
+#year{
+  margin-left: 1%;
+}
+#inlineRadio1{
+  margin-left: 1%;
+}
+#inlineRadio2{
+  margin-left: 1%;
+}
+

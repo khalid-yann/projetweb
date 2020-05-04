@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://use.fontawesome.com/8e27a1cb4a.js"></script>
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="Style.css">
+   <script src="../js/vendor/jquery-3.5.0.min.js"></script>
+   <script src="../js/bootstrap.js"></script>
+    <meta charset="UTF-8">
+    <title>Principale</title>
+</head>
+<body>
+<!-- header -->
+<header class="container-fluid header m-0">
+
+  <div class="container">
+    <nav class="menu">
+      <a href="#" class="logo m-0"><img src="../img/logo.jpg" height="50" alt="camair-co"></a>
+      <a href="contact.html"><i class="fa fa-home" aria-hidden="true"></i>ACCUEIL |</a>
+      <a href="index.html"><i class="fa fa-money" aria-hidden="true"></i>ACHETER UN BILLET |</a>
+      <a href="index.html"><i class="fa fa-bookmark" aria-hidden="true"></i>MES RESERVATIONS |</a>
+    </nav>
+
+    <nav class="menu2">
+      <a href="contact.html" class="text"><i class="fa fa-phone-square" aria-hidden="true"></i> Contactez-nous | </a>
+      <a href="inscription.html" class="text2"><i class="fa fa-user" aria-hidden="true fa"></i><i class="fa fa-plus" aria-hidden="true"></i>Créer mon compte | </a>
+      <a href="connexion.html" class="text3"><i class="fa fa-user" aria-hidden="true"></i> Connectez vous | </a>
+      <input type="search" id="search" name="recherche" placeholder="Recherche..."/>
+    </nav>
+  </div>
+</header>
+<!-- fin header -->
+
+<!-- bannière -->
+
+<section class="container-fluid banner">
+  <div class="ban">
+    <img src="../img/avion.jpg" alt="bannière du site">
+  </div>
+  <div class="inner-banner">
+    <h2>
+      <nav class="menu3">
+        <a href="" class="text-uppercase"><i class="fa fa-percent" aria-hidden="true"></i>
+          NOS MEILLEURS TARIFS|
+        </a>
+        <a href="" class="text-uppercase"><i class="fa fa-clock-o" aria-hidden="true"></i>
+          ARRIVES DEPART|
+        </a>
+        <a href="" class="text-uppercase"><i class="fa fa-credit-card" aria-hidden="true"></i>
+          TOUT FLYING BLUE|
+        </a>
+        <a href="" class="text-uppercase"><i class="fa fa-car" aria-hidden="true"></i><i class="fa fa-bed" aria-hidden="true"></i>
+          HOTELS, VOITURES....
+        </a>
+      </nav>
+    </h2>
+
+  </div>
+</section>
+<section class="container-fluid banner">
+  <div class="container register-form col-md-5">
+    <div class="form">
+      <div class="note" id="not">
+        <h2>Acheter un billet</h2>
+      </div>
+
+      <div class="form-content" id="form">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="form-group">
+              <i class="fa fa-plane" aria-hidden="true" id="1"></i><input type="text" class="form-control"  placeholder="Entrez votre destination" value=""/>
+            </div>
+            <div class="form-group">
+              <i class="fa fa-plane" aria-hidden="true" id="2"></i><input type="text" class="form-control" placeholder="Arrivée à" value=""/>
+            </div>
+          </div>
+          <p>
+             <div class="col-md-6">
+                <div class="form-group">
+                  <i class="fa fa-calendar" aria-hidden="true" id="3"></i><i class="fa fa-arrow-right" aria-hidden="true" id="4"></i><input type="text" class="form-control" placeholder="Date de depart @jj/mm/aaaa" value=""/>
+             </div>
+               <div class="form-group">
+                 <i class="fa fa-users" aria-hidden="true" id="5"></i><input type="text" class="form-control" placeholder="nombre de passager" value=""/>
+               </div>
+             </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <i class="fa fa-calendar" aria-hidden="true" id="6"></i><i class="fa fa-arrow-left" aria-hidden="true" id="7"></i><input type="text" class="form-control" placeholder="Date de retour @jj/mm/aaaa" value=""/>
+            </div>
+            <div class="form-group">
+              <!--<input type="text" class="form-control" placeholder="Classe" value=""/>-->
+              <i class="fa fa-wheelchair fa fa-2x" aria-hidden="true"></i><select class="custom-select" id="inlineFormCustomSelect">
+                <option selected>ECONOMY</option>
+                <option value="1">PREMIUM ECONOMY</option>
+                <option value="2">BUSINESS</option>
+                <option value="3">LA PREMIERE</option>
+              </select>
+            </div>
+          </div>
+          </p>
+        </div>
+        <button type="button" class="btnSubmit">Submit</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin bannière -->
+
+<!-- Gérez vos réservations -->
+<hr class="separator">
+<section class="container-fluid about">
+  <div class="container">
+    <div class="row">
+
+      <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12" id="num1">
+        <img src="../img/reservations.jpg" alt="article">
+        <h2> Vos réservations </h2>
+        <p>
+          Horaires, terminal de départ, nombre de bagages autorisés, services disponibles à bord... Toutes les informations sur vos prochains voyages sont là !
+        </p>
+      </article>
+      <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+        <img src="../img/options.jpg" alt="article">
+        <h2> Vos options </h2>
+        <p>
+          Offrez-vous un siège avec plus d'espace, emportez plus de bagages ou dégustez un Menu À la Carte ! Avec nos Options, créez un voyage à votre image !
+        </p>
+      </article>
+      <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+
+        <img src="../img/info.jpg" alt="article">
+        <h2> Vos informations </h2>
+        <p>
+          Complétez ou modifiez vos informations personnelles : coordonnées, numéro de carte Flying Blue, contact en cas d'urgence…
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- fin gérez vos réservations -->
+
+<!-- footer / paiement  -->
+<footer class="container-fluid footer">
+  <hr class="separator">
+  <h2> ------ Paiement acceptés ------ </h2>
+  <div class="container">
+    <img src="../img/paiement1.png" alt="master card">
+    <img src="../img/paiement2.png" alt="jcb">
+    <img src="../img/paiement3.png" alt="visa">
+  </div>
+  <div id="reseau" class="contain">
+    <p>NOS RESEAUX SOCIAUX
+      <img src="../img/facebook.jpg" alt="logo paiement" id="face">
+      <img src="../img/messenger.jpg" alt="logo paiement" id="mes">
+      <img src="../img/instagram.png" alt="logo paiement" id="insta">
+      <img src="../img/linked-in.png" alt="logo paiement" id="in">
+      <img src="../img/twitter.png" alt="logo paiement" id="twit">
+      <img src="../img/youtube.png" alt="logo paiement" id="you">
+    </p>
+  </div>
+  <div id="bottom" class="contain">
+    <hr class="separator">
+    <nav>
+      <a href="#">PLAN DU SITE |</a>
+      <a href="#"> INFORMATIONS LEGALES |</a>
+      <a href="#"> POLITIQUE DE CONFIDENTIALITE |</a>
+      <a href="#"> OPTION PAYANTE</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

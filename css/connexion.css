@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+  background: url("../img/voy.jpg");
+  color: white;
+}
+
+.container{
+  margin-top: 50px;
+}
+h2{
+  text-align: center;
+  text-shadow: 0 0 20px #0b2e13;
+  color: #0b2e13;
+}
+form{
+  border: none;
+  background-color: #1d2124;
+
+}
+form label{
+  border-radius: 20px;
+}
+.well{
+  background: rgba(0, 0, 0, 0.5) ;
+  border-radius: 10px/10px;
+  box-shadow: 0 0 50px 0 red;
+  position: relative;
+}
+.well input[type=text]{
+  padding-left: 40px;
+}
+.well input[type=password]{
+  padding-left: 40px;
+}
+.well i{
+  position: absolute;
+  left: 10px;
+  top: 27px;
+  padding: 9px 8px;
+  color: #aaa;
+}
+#psw{
+  text-align: center;
+}
+#oubli{
+  color: #0b2e13;
+  text-decoration: none;
+}
+
+#but{
+  margin-left: 23%;
+}
+
+#log{
+  margin-left: 1%;
+}
+
+#pass{
+  margin-left: 1%;
+}
+
+#oubli{
+  color: #005cbf;
+  text-align: center;
+}
+
